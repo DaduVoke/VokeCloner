@@ -1,6 +1,6 @@
-VokeCloner
+# VokeCloner
 
-Install
+# Install
 
 1. git clone https://github.com/DaduVoke/VokeCloner.git
 
