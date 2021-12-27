@@ -42,7 +42,7 @@ sprint (bcolors.OKCYAN + "გამარჯობათ. tool-ი შექმ�
 class VokeCloner:
 
      def __init__(self, url):
-         
+
         self.filename = self.create_filename(url)
         self.url = url
         # არსებული საიტის კოპის შექმნა და მონიტორიგი.
@@ -100,11 +100,11 @@ sprint (bcolors.OKCYAN + "დარწმუნდით რომ შეცვ�
 
 if __name__ == "__main__":
 
-    test_monitor = VokeCloner("https://მაგალითი.com")
+    voke_monitor = VokeCloner("https://მაგალითი.com")
 
     while True:
 
         time.sleep(60)
 
-        test_monitor.compare_site()
+        voke_monitor.compare_site()
  
