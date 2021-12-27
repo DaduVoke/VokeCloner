@@ -1,4 +1,4 @@
-# VokeCloner
+VokeCloner
 
 Install
 
